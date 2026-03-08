@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv TouhouSSL)",
+      "Bash(conda create -n TouhouSSL python=3.11 -y)",
+      "Bash(conda create -n TouhouSSL python=3.11 -y --override-channels -c defaults)",
+      "Bash(conda config --show channels)",
+      "Bash(conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main)",
+      "Bash(conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free)",
+      "Bash(conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge)",
+      "Bash(conda run -n TouhouSSL python \"d:/WorkShop/TouhouSSL/First Game/The Game/snake.py\")",
+      "Bash(conda run -n TouhouSSL pip install windows-curses)",
+      "Bash(conda run -n TouhouSSL python -c \"import windows_curses; import curses; print\\(''curses OK''\\)\")",
+      "Bash(conda run -n TouhouSSL pip install windows-curses --force-reinstall)",
+      "Bash(conda run -n TouhouSSL pip show windows-curses)",
+      "Bash(conda run -n TouhouSSL python -c \"import windows_curses\")",
+      "Bash(\"D:/Devtools/MiniConda/envs/TouhouSSL/python.exe\" -c \"import windows_curses; print\\(''OK''\\)\")",
+      "Bash(\"D:/Devtools/MiniConda/envs/TouhouSSL/python.exe\" -c \"import curses; print\\(''curses OK''\\)\")"
+    ]
+  }
+}
