@@ -2,6 +2,14 @@
 
 提供屏幕捕获和键盘控制功能，用于与东方Project游戏进行交互。
 
+本项目目前运行于python 3.11
+
+```bash
+conda create -n THRL python=3.11 
+
+conda activate THRL
+```
+
 ## 功能特性
 
 ### 1. 屏幕捕获 (GameCapture)

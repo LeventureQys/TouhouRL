@@ -4,6 +4,12 @@
 """
 
 import time
+import os
+
+# 设置环境变量以避免 DISPLAY 错误
+if 'DISPLAY' not in os.environ:
+    os.environ['DISPLAY'] = ':0'
+
 import pyautogui
 
 
